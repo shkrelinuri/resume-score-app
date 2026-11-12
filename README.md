@@ -1,8 +1,8 @@
 # Hireability Score
 
-A resume scoring app: free instant score, paid full breakdown unlocked via a Gumroad license key.
+Upload a PDF resume to get a quick score and general feedback. A Gumroad license key unlocks the more detailed suggestions.
 
-## Setup
+## Run locally
 
 1. Install dependencies:
    ```
@@ -24,7 +24,7 @@ A resume scoring app: free instant score, paid full breakdown unlocked via a Gum
 
 To preview the score and upgrade UI without calling Anthropic, add `DEMO_MODE=true` to `.env.local` and restart the dev server. Demo mode uses a fixed sample score and should remain disabled for real users.
 
-## Before Launch
+## Before launch
 
 - Replace `YOUR_PRODUCT_PERMALINK` in `app/page.js` with the real Gumroad permalink.
 - Test a real PDF and confirm the score response appears.
